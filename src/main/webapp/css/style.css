@@ -1,0 +1,136 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+
+/*header css*/
+.header {
+	background-color: blueviolet;
+}
+
+.header h1 {
+	text-align: center;
+	padding: 16px 0;
+	color: #f5f5f5;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*Form css*/
+.container {
+	width: 60%;
+	margin: 0 auto;
+	background-color: #fffafa;
+	border: 1px solid blueviolet;
+	margin-top: 6%;
+}
+
+.container h3 {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.header-container {
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-container h3 {
+	margin-left: 5%;
+	padding: 20px 0;
+	color: #252525;
+}
+
+.w-75 {
+	width: 75%;
+}
+
+.mb-2 {
+	margin-bottom: 10px;
+}
+
+.table {
+	width: 100%;
+	border-spacing: 20px;
+}
+
+.form-align {
+	text-align: center;
+}
+
+.form-control {
+	width: 98%;
+	height: 35px;
+	padding: 8px 8px;
+}
+
+.btn-submit {
+	width: 90%;
+	text-align: center;
+	border: none;
+	background-color: blueviolet;
+	color: #f5f5f5;
+	padding: 8px 8px;
+	font-weight: 600;
+	border-radius: 4px;
+}
+
+.btn-submit:hover {
+	border: 1px solid blueviolet;
+	background-color: #f5f5f5;
+	color: blueviolet;
+	cursor: pointer;
+}
+
+.btn-update {
+	background-color: green;
+	color: #f5f5f5;
+	border: none;
+	padding: 8px 8px;
+	font-weight: 600;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 4px;
+}
+
+.btn-update:hover {
+	background-color: #f5f5f5;
+	color: green;
+}
+
+.btn-delete {
+	background-color: red;
+	color: #f5f5f5;
+	border: none;
+	padding: 8px 8px;
+	font-weight: 600;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 4px;
+}
+
+.btn-delete:hover {
+	background-color: #f5f5f5;
+	color: red;
+}
+
+.btn-add {
+    padding: 8px 16px; 
+    background-color: blueviolet; 
+    color: #f5f5f5; 
+    text-decoration: none;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-right: 5%;
+}
+
+.btn-add:hover {
+	background-color: #f5f5f5;
+	color: blueviolet;
+}

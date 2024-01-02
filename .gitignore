@@ -1,0 +1,16 @@
+# Eclipse
+.metadata/
+
+# Compiled class files
+bin/
+
+# Compiled JSP files
+work/
+
+# Build output
+build/
+
+# Eclipse project files
+.classpath
+.project
+.settings/
