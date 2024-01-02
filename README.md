@@ -26,7 +26,7 @@ This repository contains a simple example of a web application built using JSP (
 
 # Database Setup
 
-1. **Set up a MySQL database and configure the connection details in `src/main/resources/db.properties`.**
+1. **Set up a MySQL database and configure the connection details in `DBConnect.java` file.**
 
 # Deploy to Tomcat
 
